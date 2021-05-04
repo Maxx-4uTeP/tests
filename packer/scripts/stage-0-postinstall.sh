@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo yum install --enablerepo=extras epel-release
+sudo yum install -y --enablerepo=extras epel-release
 sudo yum install -y kernel-debug-devel dkms
 sudo yum install -y wget bzip2 tar
 VBOX_VERSION=$(cat /home/vagrant/.vbox_version)
